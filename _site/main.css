@@ -1,7 +1,10 @@
+
+/***************************** Body *********************************/
+
 body {
 	background-image: url("/assets/img/computer-bg.jpg");
 	font-family: 'futura-pt', sans-serif;
-    color: #000;
+    color: black;
     font-size: 1rem;
     font-weight: 400;
     margin: 0;
@@ -11,7 +14,8 @@ body {
 } 
 
 
-/*********************** Menu Bar ****************************/
+/**************************** General *********************************/
+
 img {
 	height: 50px;
 	width: 250px
@@ -19,7 +23,15 @@ img {
 
 container {
 	padding:  0 16px;
+	background: white;
 }
+
+/*#intro {
+	 background-image: url("/assets/img/computer-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat; */
+}
+/************************ Cloudunit icon ******************************/
 
 .nav_brand {
 	float:left;
@@ -30,20 +42,45 @@ container {
 	height:5px
 }
 
-.box_container {
-	display: inline-block;
-	margin-bottom: 25px;
-	margin-left: 0
-}
+/************************ First Container ****************************/ 
 
-.box {
-	background: green;
+.box_container {
+	background-color: #f2f6f7;
+	border: 1px solid #a6a6a6;
+	display: inline-block;
+	margin-bottom: 25px; 
+	margin-left: 20px;
+	margin-top: 100px;
 	position: relative;
-	border: 1px solid white;
+    max-width: 400px;
 	padding-top: 2rem;
 	padding: 0;
 }
 
+/* .box .intro .box_container {
+	
+	
+} */
+
 .sub_heading {
 	font-weight: 200;
 }
+
+.box .box_heading .heading {
+		
+	background-color: blue;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: -36px;
+    left: 4px;
+}
+
+.box .intro	.box_content {
+
+	margin-top:  2rem;
+	max-width: : 36px;
+}
+
+
+/*****************************   *********************************/
