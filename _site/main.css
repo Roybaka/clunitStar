@@ -38,11 +38,16 @@ h4 {
 
 
 #mainONe {
-	background-image: url("/assets/img/computer-bg.jpg");
+	/* background-image: url("/assets/img/computer-bg.jpg"); */
 	background-size: cover;
 	background-repeat: no-repeat;
+	margin-top: 25px;
 }
 /************************ Cloudunit icon ******************************/
+.top-bar {
+	margin-top: 0;
+
+}
 
 .nav_brand {
 	float:left;
@@ -88,44 +93,33 @@ h4 {
 }
 
 .box .intro	.box_content {
-
 	margin-top:  2rem;
 	max-width: : 36px;
 }
 
+.blocks {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.blockOne {
+	margin-left: 5px;
+	background-color: green;
+}
+
+.blockTwo {
+	margin-left: 35px;
+	background-color: blue;
+}
+
+.wpb_wrapper {
+	text-align: center;
+}
 
 /**************************  Second Section ****************************/
 
-.box_container_two {
-	background-color: #FCFAE1;
-	border: 2px solid: #a6a6a6;
-	display: inline-block;
-	margin-bottom: 50px;
-	margin-left: 20px;
-	margin-top: 100px;
-	position: relative;
-	max-width: 400px;
-	padding-top: 2rem;
-	padding: 0; 
-}
 
 
 
 /***************************  Third Section ****************************/
-
-.box_container_three {
-
-	background-color: #e5e5ff;
-	border: 2px solid: #a6a6a6;
-	display: inline-block;
-	margin-bottom: 50px;
-	margin-left: 20px;
-	margin-top: 100px;
-	position: relative;
-	max-width: 400px;
-	padding-top: 2rem;
-	padding: 0; 
-
-
-}
 
