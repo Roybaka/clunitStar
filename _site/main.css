@@ -27,6 +27,16 @@ container {
 	background: white;
 }
 
+h1 {
+	text-align: center;
+	vertical-align: baseline;
+}
+
+h4 {
+	text-align: center;
+}
+
+
 #mainONe {
 	background-image: url("/assets/img/computer-bg.jpg");
 	background-size: cover;
@@ -49,8 +59,8 @@ container {
 	background-color: #f2f6f7;
 	border: 2px solid #a6a6a6;
 	display: inline-block;
-	margin-bottom: 25px; 
-	margin-left: 20px;
+	/* margin-bottom: 25px; 
+	margin-left: 20px; */
 	margin-top: 100px;
 	position: relative;
     max-width: 400px;
