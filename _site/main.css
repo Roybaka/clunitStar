@@ -42,11 +42,6 @@ h4 {
 	text-align: center;
 }
 
-a:target {
-	display: none;
-
-}
-
 #mainONe {
 	/* background-image: url("/assets/img/computer-bg.jpg"); */
 	background-size: cover;
@@ -103,7 +98,6 @@ a:target {
 
 .box .intro	.box_content {
 	margin-top:  2rem;
-	max-width: : 36px;
 }
 
 .blocks {
@@ -134,3 +128,11 @@ a:target {
 
 /***************************  Third Section ****************************/
 
+ol {
+	display: block;
+	text-align: center;
+}
+
+li {
+	display: block;
+}
