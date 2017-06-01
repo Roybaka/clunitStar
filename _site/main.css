@@ -32,6 +32,11 @@ h1 {
 	vertical-align: baseline;
 }
 
+h2 {
+	text-align: center;
+	vertical-align: baseline;
+}
+
 h4 {
 	text-align: center;
 }
@@ -46,7 +51,6 @@ h4 {
 /************************ Cloudunit icon ******************************/
 .top-bar {
 	margin-top: 0;
-
 }
 
 .nav_brand {
@@ -118,7 +122,9 @@ h4 {
 
 /**************************  Second Section ****************************/
 
-
+.concept {
+	text-align: center;
+}
 
 
 /***************************  Third Section ****************************/
