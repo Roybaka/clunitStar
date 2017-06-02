@@ -128,13 +128,17 @@ h4 {
 
 /***************************  Third Section ****************************/
 
-ol {
+.usages {
+	display: block;
+	text-align: center;
+}
+/* ol {
 	display: block;
 	text-align: center;
 }
 
 li {
 	display: block;
-}
+} */
 
 /***************************  Fourth Section ****************************/
