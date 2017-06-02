@@ -42,14 +42,6 @@ h4 {
 	text-align: center;
 }
 
-/* #mainONe {
-	background-image: url("/assets/img/computer-bg.jpg");
-	background-color: black;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin-top: 25px;
-}*/
-
 .#allpage {
 	margin-left: 50px;
 	margin-right: 50px;
@@ -58,8 +50,8 @@ h4 {
 }
 
 .separator {
-	background-color: #22242c;
-	padding: 2.5px;
+	background-color: #01baf2;
+	padding: 2px;
 }
 
 /************************ First Section ******************************/
@@ -79,17 +71,29 @@ h4 {
 /************************ Second Section ****************************/ 
 
 .theOne {
-/*	background-image: url("/assets/img/computer-bg.jpg");
+	/* background-image: url("/assets/img/computer-bg.jpg");
 	background-color: black;
 	background-size: cover; */
+}
+
+#mainONe {
+	/* background-image: url("/assets/img/computer-bg.jpg");
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat; */
+	background-color: #f2f6f7;
+	border: 1px solid #a6a6a6;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 25px;
 }
 
 .blocks {
 /*	background-image: url("/assets/img/computer-bg.jpg");
 	background-color: black;
-	background-size: cover; */
+	background-size: cover; 
 	background-color: #f2f6f7;
-	border: 1px solid #a6a6a6;
+	border: 1px solid #a6a6a6; */
 	margin-left: 15px;
 	margin-right: 15px;
 }
@@ -171,6 +175,11 @@ dd {
 
 /*************************** Fourth Section ****************************/
 
+#Usage {
+background-color: ##87CEEB;
+
+}
+
 .usages {
 	/* display: block; */
 	text-align: center;
@@ -186,7 +195,45 @@ li {
 
 /***************************  Fifth Section ****************************/
 
-.further {
+#Going_further {
 	 /* display: block; */
+	text-align: center;
+	background-image: url("/assets/img/treeptik-homepage.jpg");
+	background-color: black;
+	background-size: cover;
+}
+
+.formCloudunit {
+	background-color: white;
+	border: 2px solid #01baf2;
+	margin-right: 850px;
+	display: block;
+	text-align: center;
+}
+
+.setting-Form {
+	text-align: center
+}
+.button {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/***************************** Social Section ********************************/
+
+
+
+
+
+
+
+
+
+
+/****************************** Footer Section ********************************/
+
+
+.col-md-12 {
 	text-align: center;
 }
