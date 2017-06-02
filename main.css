@@ -42,33 +42,57 @@ h4 {
 	text-align: center;
 }
 
-#mainONe {
-	background-image: url("/assets/img/computer-bg.jpg"); 
+/* #mainONe {
+	background-image: url("/assets/img/computer-bg.jpg");
+	background-color: black;
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-top: 25px;
+}*/
+
+.#allpage {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
-a.hiddenTab {
-	/* visibility: hidden;
-	 display: none; */
+.separator {
+	background-color: #22242c;
+	padding: 2.5px;
 }
 
-/************************ Cloudunit icon ******************************/
+/************************ First Section ******************************/
 .top-bar {
 	margin-top: 0;
 }
 
-.nav_brand {
+/*.nav_brand {
 	float:left;
 	padding:12.5px 15px;
 	padding-left: 5px;
 	font-size:5px;
 	line-height:5px;
 	height:5px 
+} */
+
+/************************ Second Section ****************************/ 
+
+.theOne {
+/*	background-image: url("/assets/img/computer-bg.jpg");
+	background-color: black;
+	background-size: cover; */
 }
 
-/************************ First Section ****************************/ 
+.blocks {
+/*	background-image: url("/assets/img/computer-bg.jpg");
+	background-color: black;
+	background-size: cover; */
+	background-color: #f2f6f7;
+	border: 1px solid #a6a6a6;
+	margin-left: 15px;
+	margin-right: 15px;
+}
 
 .box_container {
 	background-color: #f2f6f7;
@@ -106,34 +130,46 @@ a.hiddenTab {
 	margin-top:  2rem;
 }
 
-.blocks {
+/*.blocks {
 	margin-left: 50px;
 	margin-right: 50px;
-}
+}*/
 
 .blockOne {
 	margin-left: 5px;
 	background-color: green;
 }
 
-.blockTwo {
-	margin-left: 35px;
-	background-color: blue;
-}
-
 .wpb_wrapper {
 	text-align: center;
 }
 
-/**************************  Second Section ****************************/
+
+/*************************** Third Section ****************************/
+
+#Key_concept{
+	background-image: url("/assets/img/treeptik-homepage.jpg");
+	background-color: black;
+	background-size: cover;
+}
+
+.help-block {
+	color: white;
+
+}
+
 
 .concept {
 	text-align: center;
 
 }
 
+dd {
+	color: white;
+}
 
-/***************************  Third Section ****************************/
+
+/*************************** Fourth Section ****************************/
 
 .usages {
 	/* display: block; */
@@ -148,7 +184,7 @@ li {
 	display: block;
 } */
 
-/***************************  Fourth Section ****************************/
+/***************************  Fifth Section ****************************/
 
 .further {
 	 /* display: block; */
