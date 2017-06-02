@@ -152,7 +152,7 @@ h4 {
 /*************************** Third Section ****************************/
 
 #Key_concept{
-	background-image: url("/assets/img/treeptik-homepage.jpg");
+	background-image: url("assets/img/treeptik-homepage.jpg");
 	background-color: black;
 	background-size: cover;
 }
@@ -198,7 +198,7 @@ li {
 #Going_further {
 	 /* display: block; */
 	text-align: center;
-	background-image: url("/assets/img/treeptik-homepage.jpg");
+	background-image: url("assets/img/treeptik-homepage.jpg");
 	background-color: black;
 	background-size: cover;
 }
