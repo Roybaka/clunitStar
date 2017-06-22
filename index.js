@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({
     extended:true
 }));
 
-app.use('https://cu01.cloudunit.io/#/login', express.static(__dirname));
+app.use('/pages', express.static(__dirname));
 
 //Home page
 
