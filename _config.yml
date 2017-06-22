@@ -26,7 +26,6 @@ github_username:  Roybaka
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
 gems:
   - jekyll-feed
 exclude:
