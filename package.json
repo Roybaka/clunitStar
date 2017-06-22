@@ -4,7 +4,8 @@
   "description": "Test github pages CloudUnit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -14,10 +15,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.3",
-    "nodemailer": "^4.0.1",
-    "sendmail": "^1.1.1"
+    "body-parser": "1.17.2",
+    "express": "4.15.3",
+    "nodemailer": "4.0.1",
+    "sendmail": "1.1.1"
   },
   "bugs": {
     "url": "https://github.com/Roybaka/clunitStar/issues"

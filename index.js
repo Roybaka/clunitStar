@@ -23,13 +23,13 @@ app.use(bodyParser.urlencoded({
     extended:true
 }));
 
-app.use('/pages', express.static(__dirname));
+app.use('https://cu01.cloudunit.io/#/login', express.static(__dirname));
 
 //Home page
 
 app.get('/', (req,res) => {
-    res.sendfile('index.html');
-console.log('CloudUnit reading console log ...' + req.url);
+    res.redirect('index.html');
+    console.log('CloudUnit reading console log ...' + req.url);
 });
 
 // Create reusable transporter object using the default SMTP transport and sending mail function
